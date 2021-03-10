@@ -40,6 +40,7 @@ namespace SimpleImageParser.Pages
 
                                     aspElements.Controls.Add(new TableRow());
 
+                                    // Parsing
                                     if (imgs_url != null)
                                     {
                                         var mm = imgs_url.Select(el => el.GetAttributeValue("src", null));
